@@ -18,6 +18,17 @@
         top:30px;
         left:90%;
     }
+
+    .member-name{
+        width:40%;
+    }
+}
+
+
+@media(max-width:800px){
+    .member-name{
+        width:60%;
+    }
 }
         
     
@@ -37,5 +48,25 @@
         width:85%;
     }
 
+    .member-name{
+        width:100%;
+    }
 
+    .member-name dt{
+        padding-left:5px;
+    }
+
+    .member-name dd{
+        margin-left: 0;
+        padding-left: 35px;
+        width:50%;
+    }
+
+
+}
+
+@media(min-width: 900px){
+    br{
+        display: none;
+    }
 }

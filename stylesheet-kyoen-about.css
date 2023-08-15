@@ -127,6 +127,24 @@
     list-style: none;
   }  
 
+  .member-name{
+    font-size: 30px;
+    width:30%;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .member-name dt{
+    width:50%;
+    text-align: left;
+  }
+
+  .member-name dd{
+    width:40%;
+    text-align: left;
+  }
+
 
 
   
