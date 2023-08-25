@@ -19,18 +19,15 @@
         left:90%;
     }
 
-    .member-name{
-        width:40%;
-    }
 }
 
 
-@media(max-width:800px){
+@media(max-width: 1000px){
     .member-name{
         width:60%;
+        margin-left:25%;
     }
 }
-        
     
     
 @media(max-width:670px){
@@ -50,6 +47,7 @@
 
     .member-name{
         width:100%;
+        margin:0 auto;
     }
 
     .member-name dt{
@@ -58,15 +56,16 @@
 
     .member-name dd{
         margin-left: 0;
-        padding-left: 35px;
+        padding-left: 40px;
         width:50%;
     }
 
 
 }
 
-@media(min-width: 900px){
-    br{
-        display: none;
+@media(max-width:350px){
+    .member-name dd{
+        padding-left:8px;
     }
 }
+
