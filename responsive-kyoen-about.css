@@ -124,3 +124,9 @@
     }
 }
 
+@media(min-width:800px){
+    br{
+        display: none;
+    }
+}
+
